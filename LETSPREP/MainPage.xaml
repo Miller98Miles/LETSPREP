@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.MainPage">
+    
+    <AbsoluteLayout BackgroundColor="Aqua">
+        <Image Source="adkins.jpg" Aspect="Fill" AbsoluteLayout.LayoutBounds="0,0,1.5,1" AbsoluteLayout.LayoutFlags="All"/>
+        <Image Source="letsprep.png" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,.2,.7,.5" AbsoluteLayout.LayoutFlags="All">
+            <Image.Clip>
+                <EllipseGeometry
+                Center="145,160"
+                RadiusX="140"
+                RadiusY="100"/>
+            </Image.Clip>
+        </Image>
+        <Button Text="Log In"  CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" FontSize="Body" AbsoluteLayout.LayoutBounds="0.5,.75,.5,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Clicked="Button_Clicked"/>
+        <Button Text="Sign Up" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="IndianRed" FontSize="Body" AbsoluteLayout.LayoutBounds="0.5,.85,.5,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Clicked="Button_Clicked2"/>
+    </AbsoluteLayout>
+    
+</ContentPage>

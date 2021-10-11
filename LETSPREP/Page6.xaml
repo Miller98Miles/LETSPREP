@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page6">
+    <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never" BackgroundColor="BlanchedAlmond">
+        <AbsoluteLayout>
+            <Image Source="adkins.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Frame BackgroundColor="LightBlue" CornerRadius="50" AbsoluteLayout.LayoutBounds="0,0.01,1,.06" AbsoluteLayout.LayoutFlags="All">
+                <Label Text="Recipe List" TextColor="GhostWhite" FontSize="48" HorizontalOptions="Center"/>
+            </Frame>
+
+            <Label Text="Breakfast" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,0.08,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0.12,1,.2" AbsoluteLayout.LayoutFlags="All" >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton Source="charredavoandeggs.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400" Clicked="Button_Clicked6" />
+                        <ImageButton Source="oatsandfruit.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="pineapplepancakemess.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="giantvegrosti.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="chocolateporridge.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Label Text="Lunch" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,0.32,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0.4,1,.2" AbsoluteLayout.LayoutFlags="All"  >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" >
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton Source="chickenveggiequesadilla.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="choppedchickencobbsalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="englishmuffinpizza.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="medpastasalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="spicygarlicnoodles.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            
+            <Label Text="Dinner" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,.555,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,.68,1,.2" AbsoluteLayout.LayoutFlags="All">
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton Source="frenchchicken.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="mexicanfriedrice.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="porkchowmein.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="spanishchickenandbeans.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="sweetpotatoandhamfritters.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Label Text="Snacks" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,.7925,1,.06" AbsoluteLayout.LayoutFlags="All" />
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,.955,1,.2" AbsoluteLayout.LayoutFlags="All" >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton Source="avocadochips.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="creamygarlichummus.jpg" CornerRadius="200"  Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="peanutbutterproteinballs.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="roastedchickpeas.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton Source="zucchinisushi.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Button Text="Confirm Meal Plan" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.5,.998,.5,.03" AbsoluteLayout.LayoutFlags="All" Clicked="Button_Clicked7"/>
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page10">
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="LightSalmon">
+            <StackLayout>
+                <Label/>
+                <Frame BackgroundColor="LightBlue" CornerRadius="50">
+                    <Label Text="Welcome to your Dashboard!" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="CenterAndExpand" Padding="10"/>
+                </Frame>
+                <Label/>
+                <Frame BackgroundColor="LightCoral" CornerRadius="50">
+                    <Label Text="Recipes" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="CenterAndExpand"/>
+                </Frame>
+                <Label/>
+                <Label Text="Breakfast" FontAttributes="Italic" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="Center" />
+                <Frame VerticalOptions="Center" HeightRequest="100" BackgroundColor="Transparent">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="charredavoandeggs.jpg" CornerRadius="100" Aspect="AspectFill" HeightRequest="100" WidthRequest="100" />
+                            <ImageButton Source="oatsandfruit.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="pineapplepancakemess.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="giantvegrosti.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="chocolateporridge.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <Label Text="Lunch" FontAttributes="Italic" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="Center"/>
+                <Frame VerticalOptions="Center" HeightRequest="100" BackgroundColor="Transparent">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="chickenveggiequesadilla.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="choppedchickencobbsalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="englishmuffinpizza.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="medpastasalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="spicygarlicnoodles.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <Label Text="Dinner" FontAttributes="Italic" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="Center"/>
+                <Frame VerticalOptions="Center" HeightRequest="100" BackgroundColor="Transparent">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="frenchchicken.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="mexicanfriedrice.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="porkchowmein.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="spanishchickenandbeans.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="sweetpotatoandhamfritters.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <Label Text="Snacks" FontAttributes="Italic" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="Center"/>
+                <Frame VerticalOptions="Center" HeightRequest="100" BackgroundColor="Transparent">
+                    <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="avocadochips.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="creamygarlichummus.jpg" CornerRadius="200"  Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="peanutbutterproteinballs.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="roastedchickpeas.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                            <ImageButton Source="zucchinisushi.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <Frame BackgroundColor="LightCoral" CornerRadius="50">
+                    <Label Text="Shopping List" TextColor="GhostWhite" FontSize="Title" HorizontalOptions="CenterAndExpand"/>
+                </Frame>
+                <Frame VerticalOptions="Center" HeightRequest="100" CornerRadius="50">
+                    <ScrollView>
+                        <StackLayout>
+                            <Label Text="Red Pepper x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Spring Onions x4" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Avocado x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Olive Oil x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Sweet Potato x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Dozen Large Free-Range Eggs x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="2 tablespoons cottage cheese" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Fresh Red Chili x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Parsley x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Mint x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Coriander x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Button Text="Order Items" TextColor="GhostWhite" BackgroundColor="LightBlue"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+
+                <Button Text="Log Out" TextColor="GhostWhite" HeightRequest="50" BackgroundColor="LightBlue" CornerRadius="50" Clicked="Button_Clicked10"/>
+            </StackLayout>
+           
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

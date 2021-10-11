@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page8">
+    <ScrollView Orientation="Vertical" VerticalScrollBarVisibility="Never" BackgroundColor="BlanchedAlmond">
+        <AbsoluteLayout>
+            <Image Source="adkins.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Frame BackgroundColor="LightBlue" CornerRadius="50" AbsoluteLayout.LayoutBounds="0,0.01,1,.06" AbsoluteLayout.LayoutFlags="All">
+                <Label Text="Meal Plan" TextColor="GhostWhite" FontSize="48" HorizontalOptions="Center"/>
+            </Frame>
+
+            <Label Text="Breakfast" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,0.08,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0.12,1,.2" AbsoluteLayout.LayoutFlags="All" >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton IsEnabled="False" Source="charredavoandeggs.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="oatsandfruit.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="pineapplepancakemess.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="giantvegrosti.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="chocolateporridge.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Label Text="Lunch" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,0.32,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0.4,1,.2" AbsoluteLayout.LayoutFlags="All"  >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" >
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton IsEnabled="False" Source="chickenveggiequesadilla.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="choppedchickencobbsalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="englishmuffinpizza.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="medpastasalad.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="spicygarlicnoodles.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Label Text="Dinner" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,.555,1,.06" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,.68,1,.2" AbsoluteLayout.LayoutFlags="All">
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton IsEnabled="False" Source="frenchchicken.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="mexicanfriedrice.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="porkchowmein.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="spanishchickenandbeans.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="sweetpotatoandhamfritters.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Label Text="Snacks" FontSize="Title" TextColor="GhostWhite" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0,.7925,1,.06" AbsoluteLayout.LayoutFlags="All" />
+            <StackLayout BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,.955,1,.2" AbsoluteLayout.LayoutFlags="All" >
+                <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <ImageButton IsEnabled="False" Source="avocadochips.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="creamygarlichummus.jpg" CornerRadius="200"  Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="peanutbutterproteinballs.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="roastedchickpeas.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                        <ImageButton IsEnabled="False" Source="zucchinisushi.jpg" CornerRadius="200" Aspect="AspectFill" HeightRequest="400" WidthRequest="400"/>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+
+            <Button Text="Generate Shopping List" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.5,.998,.5,.03" AbsoluteLayout.LayoutFlags="All" Clicked="Button_Clicked8"/>
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

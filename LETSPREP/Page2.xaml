@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page2">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="CadetBlue">
+            <Image Source="adkins2.jpg" Aspect="Fill" AbsoluteLayout.LayoutBounds="0,0,1.5,1" AbsoluteLayout.LayoutFlags="All"/>
+            <Image Source="letsprep.png" Aspect="AspectFill" AbsoluteLayout.LayoutBounds=".5,0,.7,.5" AbsoluteLayout.LayoutFlags="All">
+                <Image.Clip>
+                    <EllipseGeometry
+                Center="145,160"
+                RadiusX="140"
+                RadiusY="100"/>
+                </Image.Clip>
+            </Image>
+            <Entry Placeholder="First Name" PlaceholderColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" AbsoluteLayout.LayoutBounds="0.5,.48,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Entry Placeholder="Last Name" PlaceholderColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" AbsoluteLayout.LayoutBounds="0.5,.58,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Entry Placeholder="Email" PlaceholderColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" AbsoluteLayout.LayoutBounds="0.5,.68,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Entry Placeholder="Password" PlaceholderColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" AbsoluteLayout.LayoutBounds="0.5,.78,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Entry Placeholder="Confirm Password" PlaceholderColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9"  TextColor="GhostWhite"  AbsoluteLayout.LayoutBounds="0.5,.88,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Button Text="Sign Up" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.5,.99,.5,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Clicked="Button_Clicked3"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

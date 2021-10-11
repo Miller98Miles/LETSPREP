@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page3">
+    <AbsoluteLayout>
+        <Image Source="healthyfood.jpg" Aspect="Fill" AbsoluteLayout.LayoutBounds="0,0,1.5,1" AbsoluteLayout.LayoutFlags="All"/>
+        <Frame BackgroundColor="LightBlue" CornerRadius="50" AbsoluteLayout.LayoutBounds="0.5,.08,.75,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional">
+            <Label Text="Personal Info" FontSize="36" HorizontalTextAlignment="Center" BackgroundColor="LightBlue" TextColor="GhostWhite" VerticalTextAlignment="Center" Opacity=".9" AbsoluteLayout.LayoutBounds="0.5,.18,.75,100" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        </Frame>
+        <Label Text="Birthday" HorizontalTextAlignment="Start" TextColor="GhostWhite" VerticalTextAlignment="Center" FontSize="Medium" BackgroundColor="Transparent" Opacity=".9" AbsoluteLayout.LayoutBounds="0.5,.38,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <DatePicker BackgroundColor="Transparent" TextColor="GhostWhite" HorizontalOptions="End" Opacity=".9" AbsoluteLayout.LayoutBounds="0.5,.38,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
+        <Label Text="Sex" TextColor="GhostWhite" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Medium" BackgroundColor="Transparent"  Opacity=".9" AbsoluteLayout.LayoutBounds="0.5,.48,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <RadioButton Content="Male" BackgroundColor="Transparent" TextColor="GhostWhite" Opacity=".9" AbsoluteLayout.LayoutBounds="0.3,.48,.25,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
+            <RadioButton Content="Female" BackgroundColor="Transparent" TextColor="GhostWhite" Opacity=".9" AbsoluteLayout.LayoutBounds="0.53,.48,.25,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
+            <RadioButton Content="Non-Binary" BackgroundColor="Transparent" TextColor="GhostWhite" Opacity=".9" AbsoluteLayout.LayoutBounds="0.9,.48,.3,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" />
+        <Label Text="Height" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.5,.58,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+        <Entry BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.52,.58,.1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Label Text="Feet" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.63,.58,.15,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Entry BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.72,.58,.08,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Label Text="Inches" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.85,.58,.15,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+        <Label Text="Weight" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.5,.68,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+            <Entry BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.75,.68,.1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Label Text="lbs" BackgroundColor="Transparent" Opacity=".9" TextColor="GhostWhite" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="Medium" AbsoluteLayout.LayoutBounds="0.86,.68,.1,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Label Text="BMI"  FontSize="Medium" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="GhostWhite" BackgroundColor="Transparent" Opacity=".9" AbsoluteLayout.LayoutBounds="0.5,.78,.75,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+        <Button Text="Diet Selection" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.5,.98,.5,50" AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Clicked="Button_Clicked3"/>
+    </AbsoluteLayout>
+</ContentPage>

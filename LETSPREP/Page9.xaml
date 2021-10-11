@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page9">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image Source="adkins.jpg" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+            <Frame BackgroundColor="LightBlue" CornerRadius="50" AbsoluteLayout.LayoutBounds="0,0.01,1,.17" AbsoluteLayout.LayoutFlags="All">
+                <Label Text="Shopping List" TextColor="GhostWhite" FontSize="48" HorizontalOptions="Center"/>
+            </Frame>
+
+            <Frame AbsoluteLayout.LayoutBounds="0.5,0.43,.9,0.5" AbsoluteLayout.LayoutFlags="All">
+                <ScrollView Orientation="Vertical">
+                    <StackLayout>
+                        <Label Text="Red Pepper x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Spring Onions x4" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Avocado x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Olive Oil x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Sweet Potato x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Dozen Large Free-Range Eggs x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="2 tablespoons cottage cheese" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Fresh Red Chili x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Parsley x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Mint x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        <Label Text="Coriander x1" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </ScrollView>
+            </Frame>
+            <Button Text="Order Items" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.1,.9,.4,.1" AbsoluteLayout.LayoutFlags="All"/>
+            <Button Text="Visit Dashboard" CornerRadius="50" TextColor="GhostWhite" BackgroundColor="LightBlue" AbsoluteLayout.LayoutBounds="0.9,.9,.4,.1" AbsoluteLayout.LayoutFlags="All" Clicked="Button_Clicked9"/>
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

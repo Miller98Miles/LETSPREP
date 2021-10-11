@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LETSPREP.Page7">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <AbsoluteLayout>
+                <Image Source="" BackgroundColor="BlanchedAlmond" Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+                <Frame BackgroundColor="LightBlue" CornerRadius="50" AbsoluteLayout.LayoutBounds="0.5,0.01,1,.04" AbsoluteLayout.LayoutFlags="All">
+                    <Label Text="Charred Avocado and Eggs" TextColor="GhostWhite" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" FontSize="24"/>
+                </Frame>
+
+                <Frame BackgroundColor="Transparent" CornerRadius="75" AbsoluteLayout.LayoutBounds="0.5,.1,1,.3" AbsoluteLayout.LayoutFlags="All">
+                    <Image Source="charredavoandeggs.jpg" Aspect="AspectFill"/>
+                </Frame>
+
+                <Label Text="Ingredients" FontSize="Medium" FontAttributes="Bold,Italic" HorizontalTextAlignment="Center" AbsoluteLayout.LayoutBounds="0.5,0.61,.5,0.4" AbsoluteLayout.LayoutFlags="All" />
+                <Frame AbsoluteLayout.LayoutBounds="0.5,0.43,.9,0.1" AbsoluteLayout.LayoutFlags="All">
+                    <ScrollView Orientation="Vertical">
+                        <StackLayout>
+                            <Label Text="1 red pepper" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="4 spring onions" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="0.5 a ripe avocado" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="olive oil" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="1 sweet potato" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="2 large free-range eggs" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="2 tablespoons cottage cheese" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="0.5 a fresh red chili" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="a few sprigs of fresh soft herbs,such as parsley, mint, coriander" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+
+                <Label Text="Instructions" FontSize="Medium" FontAttributes="Bold,Italic" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0.5,1,1,0.5" AbsoluteLayout.LayoutFlags="All"/>
+                <Frame AbsoluteLayout.LayoutBounds="0.5,.65,.9,.2" AbsoluteLayout.LayoutFlags="All" >
+                    <ScrollView Orientation="Vertical">
+                        <StackLayout>
+                            <Label FontSize="Medium" Text="1. Halve and deseed the pepper, then slice into fine strips. Trim and finely slice the spring onions, then destone, peel and chop the avocado."/>
+                            <Label FontSize="Medium" Text="2. Heat 1 tablespoon of oil in a medium frying pan over a medium-high heat, add the spring onions, avocado and pepper and fry for 3 to 4 minutes, or until lightly charred. "/>
+                            <Label FontSize="Medium" Text="3. Using a speed-peeler, peel the skin from the sweet potato, then continue peeling into fine ribbons. Add to the pan, tossing with the charred veg, and fry for 3 minutes, or until the sweet potato ribbons start to char. "/>
+                            <Label FontSize="Medium" Text="4. Spread the veg evenly in the pan, then use the back of a spoon to push and dig out two pockets. Crack an egg into each one, then tilt the pan so the whites run into the veg and bind everything together."/>
+                            <Label FontSize="Medium" Text="5. Season with sea salt and black pepper, cover with a lid or tin foil, then reduce the heat to medium–low and let the eggs cook for 3 to 5 minutes, depending on how runny you like your yolks. "/>
+                            <Label FontSize="Medium" Text="6. Meanwhile, deseed and finely chop the chilli, and pick and roughly chop the herbs. "/>
+                            <Label FontSize="Medium" Text="7. Spoon the mixture onto a plate, dollop with cottage cheese and sprinkle over the chilli and herbs, then tuck in!"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+
+                <Label Text="Nutritional Value" FontSize="Medium" FontAttributes="Bold,Italic" HorizontalOptions="Center" AbsoluteLayout.LayoutBounds="0.5,1.47,1,0.5" AbsoluteLayout.LayoutFlags="All"  />
+                <Frame AbsoluteLayout.LayoutBounds="0.5,.9,.9,.15" AbsoluteLayout.LayoutFlags="All">
+                    <ScrollView Orientation="Vertical">
+                        <StackLayout VerticalOptions="Center">
+                            <Label Text="Calories: 213" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Fat: 12.7g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Saturates: 3.4g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Sugar: 10.1g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Salt: 0.47g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Protein: 11.9g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Carbs: 26.2g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                            <Label Text="Fiber: 1.5g" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+
+
+                <Button Text="+" BackgroundColor="LightBlue" TextColor="GhostWhite" VerticalOptions="Center" FontSize="60" CornerRadius="50" AbsoluteLayout.LayoutBounds="0.05,.98,.2,.05" AbsoluteLayout.LayoutFlags="All" />
+                <Label Text="Add to Meal Plan"  TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center" FontSize="36" AbsoluteLayout.LayoutBounds="0.9,.98,.7,.05" AbsoluteLayout.LayoutFlags="All"/>
+
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
